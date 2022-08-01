@@ -1,0 +1,6 @@
+<launch>
+   <node name="Webcam_pub" pkg="image_view" type="streamer" output="screen" respawn="true"/>
+
+   <node name="Webcam_sub" pkg="image_view" type="viewer" output="screen" respawn="true"/>
+
+</launch>

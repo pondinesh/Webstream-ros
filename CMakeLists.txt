@@ -208,10 +208,10 @@ include_directories(
 # endif()
 
 ## Add folders to be run by python nosetests
-catkin_add_nosetests(test/slam_rostest.py)
+# catkin_add_nosetests(test/slam_rostest.py)
 
-find_package(rostest REQUIRED)
-add_rostest(test/test_slam.test)
+# find_package(rostest REQUIRED)
+# add_rostest(test/test_slam.test)
 
 # add_executable(talker src/talker.cpp)
 # target_link_libraries(talker ${catkin_LIBRARIES})
@@ -235,10 +235,3 @@ add_executable(viewer scripts/viewer.cpp)
 target_link_libraries(viewer ${catkin_LIBRARIES})
 add_dependencies(viewer image_view_generate_messages_cpp)
 
-# add_executable(server scripts/server.cpp)
-# target_link_libraries(server ${catkin_LIBRARIES})
-# add_dependencies(server image_view_gencpp)
-
-# add_executable(client scripts/client.cpp)
-# target_link_libraries(client ${catkin_LIBRARIES})
-# add_dependencies(client image_view_gencpp)
