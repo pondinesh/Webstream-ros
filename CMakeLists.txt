@@ -59,10 +59,10 @@ find_package(OpenCV REQUIRED)
 # )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  AddTwoInts.srv
-)
+# add_service_files(
+#  FILES
+#  AddTwoInts.srv
+# )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
