@@ -4,11 +4,15 @@ import rospy
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
+import rospkg
+
 
 def callback(video):
     br = CvBridge()
     
-    faceCascade = cv2.CascadeClassifier('/home/pon-dinesh/dinesh_ws/src/image_view/scripts/haarcascade_frontalface_default.xml')
+    rospack = rospkg.RosPack()
+    
+    faceCascade = cv2.CascadeClassifier(rospack.get_path('Webstream-ros')+'/scripts/haarcascade_frontalface_default.xml')
     
     rospy.loginfo("Playing Live...")
 

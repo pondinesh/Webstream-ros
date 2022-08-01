@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(image_view)
+project(Webstream-ros)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -59,10 +59,10 @@ find_package(OpenCV REQUIRED)
 # )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  AddTwoInts.srv
-)
+# add_service_files(
+#   FILES
+#   AddTwoInts.srv
+# )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -229,9 +229,9 @@ include_directories(
 
 add_executable(streamer scripts/streamer.cpp)
 target_link_libraries(streamer ${catkin_LIBRARIES})
-add_dependencies(streamer image_view_generate_messages_cpp)
+add_dependencies(streamer Webstream-ros_generate_messages_cpp)
 
 add_executable(viewer scripts/viewer.cpp)
 target_link_libraries(viewer ${catkin_LIBRARIES})
-add_dependencies(viewer image_view_generate_messages_cpp)
+add_dependencies(viewer Webstream-ros_generate_messages_cpp)
 

@@ -1,7 +1,7 @@
 <launch>
 
-   <node name="Webcam_pub" pkg="image_view" type="image_tx.py" output="screen" respawn="true"/>
+   <node name="Webcam_pub" pkg="Webstream-ros" type="image_tx.py" output="screen" respawn="true"/>
 
-   <node name="Webcam_sub" pkg="image_view" type="image_rx.py" output="screen" respawn="true"/>
+   <node name="Webcam_sub" pkg="Webstream-ros" type="image_rx.py" output="screen" respawn="true"/>
 
 </launch>

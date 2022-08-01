@@ -6,6 +6,7 @@
 #include<opencv2/objdetect/objdetect.hpp>
 #include<string>
 #include<iostream>
+#include <ros/package.h>
 
 using namespace std;
 using namespace cv;
@@ -16,7 +17,7 @@ void Callback(const sensor_msgs::ImageConstPtr& msg)
   {
     // cv_bridge::toCvShare(msg, "bgr8")->image;
 
-    string trained_classifier = "/home/pon-dinesh/dinesh_ws/src/image_view/scripts/haarcascade_frontalface_default.xml";
+    string trained_classifier = ros::package::getPath("Webstream-ros")+ "/scripts/haarcascade_frontalface_default.xml";
     
     CascadeClassifier faceDetector;
 
