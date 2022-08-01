@@ -1,5 +1,5 @@
-"""Image Publisher node in Ros"""
 #!/usr/bin/python3
+"""Image Publisher node in Ros"""
 
 import cv2
 import rospy
