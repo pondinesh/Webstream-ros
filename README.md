@@ -1,5 +1,5 @@
 # WEBCAMSTREAM IN ROS
-
+---------------------
 
 ## Contents
 -----------
@@ -20,9 +20,8 @@ Publishing a Webcam Stream in publisher node and Subscribe a stream using subscr
 ---------------
 
 ### ROS-NOETIC
---------------
 
-For running this package, you must install the ROS-noetic with OpenCV.<br>
+For running this package, you must install the ROS-noetic with OpenCV.
 if you had installed previously ignore this step!<br>
 Installation of ROS-Noetic steps are given below. [ROS-Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu/)<br>
 (This Procedure is only ubuntu 20.04, because ROS-noetic is supported on 20.04)
@@ -87,7 +86,7 @@ rosdep update
 -----------------------
 
 Installation of Opencv steps are given below. [OpenCV](https://docs.opencv.org/4.x/d2/de6/tutorial_py_setup_in_ubuntu.html)
-<br>
+<br><br>
 #### OpenCV Installation
 
 ```bash
@@ -149,9 +148,9 @@ source devel/setup.bash
 ## Usage
 --------
 
-There are two types of publisher and subscriber in our package. They are,
-	.. Python
-	.. C++
+There are two types of publisher and subscriber in our package. They are,<br>
+	- [Python](##python)
+	- [C++](##c++)
 
 ### Pyhton
 
@@ -176,7 +175,7 @@ Doubt and Questioning are most encouraged.
 ----------
 
 Webstream-ros is primarily package under the terms of "both the MIT license and the Apache License (Version 2.0)", with portions covered by various BSD-like licenses.
-<br>
+<br><br>
 See,
 - [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0),
 - [LICENSE-MIT](https://choosealicense.com/licenses/mit/)
