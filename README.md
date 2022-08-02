@@ -9,8 +9,6 @@
 
   > [ROS-NOETIC](#ros-noetic) 
   
-<br>
-
   > [OpenCV](#opencv)
   
 - [Initialize](#initialize)
