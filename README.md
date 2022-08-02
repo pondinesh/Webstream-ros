@@ -193,5 +193,5 @@ Doubt and Questioning are most encouraged.
 Webstream-ros is primarily package under the terms of "both the MIT license and the Apache License (Version 2.0)", with portions covered by various BSD-like licenses.
 <br><br>
 See,
-- [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0),
+- [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0)
 - [LICENSE-MIT](https://choosealicense.com/licenses/mit/)
