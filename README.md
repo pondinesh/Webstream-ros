@@ -2,7 +2,7 @@
 =====================
 
 ## Contents
-----------
+-----------
 
 .. contents::
    :local:
@@ -22,72 +22,73 @@ Installation of ROS-Noetic steps are given below. [ROS-Noetic](http://wiki.ros.o
 
 #### Setup your sources.list
 
-'''bash
+```bash
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-'''
+```
 
 #### Set up your keys
 
-'''bash
+```bash
 sudo apt install curl
-'''
+```
 
-'''bash
+```bash
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-'''
+```
 
 #### Installation
 
-'''bash
+```bash
 sudo apt update
-'''
+```
 
-'''bash
+```bash
 sudo apt install ros-noetic-desktop-full
-'''
+```
 
 #### Environment setup
 
-'''bash
+```bash
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-'''
+```
 
-'''bash
+```bash
 source ~/.bashrc
-'''
+```
 
 #### Dependencies for building packages
 
-'''bash
+```bash
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-'''
+```
 
 #### Initialize rosdep
 
-'''bash
+```bash
 sudo apt install python3-rosdep
-'''
+```
 
-'''bash
+```bash
 sudo rosdep init
-'''
+```
 
-'''bash
+```bash
 rosdep update
-'''
+```
 
-Installation of ROS-Noetic steps are given below. [OpenCV]()
+Installation of ROS-Noetic steps are given below. [OpenCV](https://docs.opencv.org/4.x/d2/de6/tutorial_py_setup_in_ubuntu.html)
 
 #### OpenCV Installation
 
-'''bash
+```bash
 sudo apt-get install python3-opencv
-'''
+```
 
 #### OpenCV-contrib Installation
-'''bash
+
+```bash
 pip install opencv-contrib-python==3.4.4.19
-'''
+```
 
 ### Creating Your Workspace
 ---------------------------
@@ -95,44 +96,44 @@ pip install opencv-contrib-python==3.4.4.19
 If you had created the Workspace previously, then ignore this step!
 Creating a Workspace steps are given below. [Worksapce](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
-'''bash
+```bash
 mkdir -p ~/<Your-Workspace-name>/src
-'''
+```
 
-'''bash
+```bash
 cd ~/<Your-Workspace-name>/
-'''
+```
 
-'''bash
+```bash
 catkin_make
-'''
+```
 
-'''bash
+```bash
 source devel/setup.bash
-'''
+```
 
 ### Installation of package in Workspace
 ----------------------------------------
 
-'''bash
+```bash
 cd src/
-'''
+```
 
-'''bash
+```bash
 git clone https://github.com/pondinesh/Webstream-ros.git
-'''
+```
 
-'''bash
+```bash
 cd ~/<Your-Workspace-name>/
-'''
+```
 
-'''bash
+```bash
 catkin_make
-'''
+```
 
-'''bash
+```bash
 source devel/setup.bash
-'''
+```
 
 ## Usage
 --------
@@ -143,15 +144,15 @@ There are two types of publisher and subscriber in our package. They are,
 
 ### Pyhton
 
-'''bash
+```bash
 roslaunch Webstream-ros webcam_py.launch
-'''
+```
 
 ### C++
 
-'''bash
+```bash
 roslaunch Webstream-ros webcam_cpp.launch
-'''
+```
 
 ## Contributing
 ---------------
