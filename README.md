@@ -161,7 +161,7 @@ source devel/setup.bash
 There are two types of publisher and subscriber in our package. They are,
 <br><br>
 - [Python](#python)<br>
-- [C++](#c++)
+- [Cpp](#cpp)
 
 ### Python
 
@@ -169,7 +169,7 @@ There are two types of publisher and subscriber in our package. They are,
 roslaunch Webstream-ros webcam_py.launch
 ```
 
-### C++
+### Cpp
 
 ```bash
 roslaunch Webstream-ros webcam_cpp.launch
