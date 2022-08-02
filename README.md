@@ -11,10 +11,14 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+<br><br>
+
 ## Introduction
 ---------------
 
 Publishing a Webcam Stream in publisher node and Subscribe a stream using subscriber node and display the stream.
+
+<br><br>
 
 ## Installation
 ---------------
@@ -83,6 +87,8 @@ sudo rosdep init
 rosdep update
 ```
 
+<br><br>
+
 ### OpenCV Installation
 -----------------------
 
@@ -99,6 +105,8 @@ sudo apt-get install python3-opencv
 ```bash
 pip install opencv-contrib-python==3.4.4.19
 ```
+
+<br><br>
 
 ## Initialize
 -------------
@@ -146,14 +154,16 @@ catkin_make
 source devel/setup.bash
 ```
 
+<br><br>
+
 ## Usage
 --------
 
 There are two types of publisher and subscriber in our package. They are,<br>
-<center>- [Python](##python)<br>
-	- [C++](##c++)</center>
+<center>- [Python](#python)<br>
+	- [C++](#c++)</center>
 
-### Pyhton
+### Python
 
 ```bash
 roslaunch Webstream-ros webcam_py.launch
@@ -165,12 +175,15 @@ roslaunch Webstream-ros webcam_py.launch
 roslaunch Webstream-ros webcam_cpp.launch
 ```
 
+<br><br>
 ## Contributing
 ---------------
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.<br>
 <br>
 Doubt and Questioning are most encouraged.
+
+<br><br>
 
 ## License
 ----------
