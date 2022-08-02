@@ -6,8 +6,8 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-|  - [ROS-NOETIC](#ros-noetic)
-|  - [OpenCV](#opencv)
+   - [ROS-NOETIC](#ros-noetic)
+   - [OpenCV](#opencv)
 - [Initialize](#initialize)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -161,8 +161,8 @@ source devel/setup.bash
 --------
 
 There are two types of publisher and subscriber in this package. They are,
-- &nbsp;&nbsp;[Python](#python)<br>
-- &nbsp;&nbsp;[Cpp](#cpp)
+   - [Python](#python)<br>
+   - [Cpp](#cpp)
 
 ### Python
 
