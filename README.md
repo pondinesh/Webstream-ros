@@ -92,8 +92,6 @@ sudo rosdep init
 rosdep update
 ```
 
-<br><br>
-
 ### OpenCV
 
 Installation of Opencv steps are given below. [OpenCV](https://docs.opencv.org/4.x/d2/de6/tutorial_py_setup_in_ubuntu.html)
