@@ -90,7 +90,6 @@ rosdep update
 <br><br>
 
 ### OpenCV Installation
------------------------
 
 Installation of Opencv steps are given below. [OpenCV](https://docs.opencv.org/4.x/d2/de6/tutorial_py_setup_in_ubuntu.html)
 <br><br>
@@ -159,9 +158,10 @@ source devel/setup.bash
 ## Usage
 --------
 
-There are two types of publisher and subscriber in our package. They are,<br>
-<center>- [Python](#python)<br>
-	- [C++](#c++)</center>
+There are two types of publisher and subscriber in our package. They are,
+<br><br>
+- [Python](#python)<br>
+- [C++](#c++)
 
 ### Python
 
