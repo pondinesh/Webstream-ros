@@ -1,8 +1,5 @@
 # WEBCAMSTREAM IN ROS
-=====================
 
-## Contents
------------
 
 .. contents::
    :local:
