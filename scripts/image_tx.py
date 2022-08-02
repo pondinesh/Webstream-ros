@@ -17,25 +17,14 @@ def image_capture(port):
     while not rospy.is_shutdown():
         val, frame = cap.read()
 
-        # cv2.namedWindow("Stream", cv2.WINDOW_NORMAL)
-        # cv2.resizeWindow("Stream", 640, 480)
-        # cv2.imshow("Stream", frame)
         if val:
             rospy.loginfo("Video Streaming...")
 
             pub.publish(bridge.cv2_to_imgmsg(frame))
 
         rate.sleep()
-    #    key = cv2.waitKey(20)
-
-    #    if key == 27 or key == 1048603:
-    #        break
-    # cv2.destroyWindow("Preveiw")
-    # except Exception as e:
-    #    pass
 
 if __name__ == "__main__":
-    #port_id = "/dev/video0"
     try:
         image_capture(0)
     except rospy.ROSInterruptException:

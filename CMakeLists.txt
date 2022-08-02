@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(Webstream-ros)
+project(webstream_ros)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -229,9 +229,9 @@ include_directories(
 
 add_executable(streamer scripts/streamer.cpp)
 target_link_libraries(streamer ${catkin_LIBRARIES})
-add_dependencies(streamer Webstream-ros_generate_messages_cpp)
+add_dependencies(streamer webstream_ros_generate_messages_cpp)
 
 add_executable(viewer scripts/viewer.cpp)
 target_link_libraries(viewer ${catkin_LIBRARIES})
-add_dependencies(viewer Webstream-ros_generate_messages_cpp)
+add_dependencies(viewer webstream_ros_generate_messages_cpp)
 
