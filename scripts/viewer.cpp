@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include <ros/ros.hpp>
-#include <image_transport/image_transport.hpp>
+#include <ros/ros.h>
+#include <image_transport/image_transport.h>
 #include <opencv2/highgui/highgui.hpp>
-#include <cv_bridge/cv_bridge.hpp>
-#include<opencv2/imgproc/imgproc.hpp>
-#include<opencv2/objdetect/objdetect.hpp>
-#include<string.hpp>
-#include<iostream.hpp>
-#include <ros/package.hpp>
+#include <cv_bridge/cv_bridge.h>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/objdetect/objdetect.hpp>
+#include <string>
+#include <iostream>
+#include <ros/package.h>
 
 using namespace std;
 using namespace cv;
