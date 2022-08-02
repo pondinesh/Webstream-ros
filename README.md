@@ -161,8 +161,8 @@ source devel/setup.bash
 --------
 
 There are two types of publisher and subscriber in this package. They are,
-|   - [Python](#python)<br>
-|   - [Cpp](#cpp)
+- |   [Python](#python)<br>
+- |   [Cpp](#cpp)
 
 ### Python
 
