@@ -5,7 +5,14 @@
 -----------
 
 - [Introduction](#introduction)
-- [Installation](#installation)
+<dl>
+<dt>
+- [Installation](#installation)</dt>
+<dd> 
+- [ROS-NOETIC](#ros-noetic)</dd>
+<dd>
+- [OpenCV](#opencv)</dd>
+</dl>
 - [Initialize](#initialize)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -89,7 +96,7 @@ rosdep update
 
 <br><br>
 
-### OpenCV Installation
+### OpenCV
 
 Installation of Opencv steps are given below. [OpenCV](https://docs.opencv.org/4.x/d2/de6/tutorial_py_setup_in_ubuntu.html)
 <br><br>
