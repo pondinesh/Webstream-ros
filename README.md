@@ -6,8 +6,8 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-  - [ROS-NOETIC](#ros-noetic)
-  - [OpenCV](#opencv)
+  > [ROS-NOETIC](#ros-noetic)
+  > [OpenCV](#opencv)
 - [Initialize](#initialize)
 - [Usage](#usage)
 - [Contributing](#contributing)
