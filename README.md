@@ -22,9 +22,10 @@ Publishing a Webcam Stream in publisher node and Subscribe a stream using subscr
 ### ROS-NOETIC
 
 For running this package, you must install the ROS-noetic with OpenCV.
-if you had installed previously ignore this step!<br>
+if you installed previously ignore this step!<br>
 Installation of ROS-Noetic steps are given below. [ROS-Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu/)<br>
 (This Procedure is only ubuntu 20.04, because ROS-noetic is supported on 20.04)
+<br><br>
 
 #### Setup your sources.list
 
@@ -104,7 +105,7 @@ pip install opencv-contrib-python==3.4.4.19
  
 ### Creating Your Workspace
 
-If you had created the Workspace previously, then ignore this step!<br>
+If you had created the Workspace previously, then ignore this step!
 Creating a Workspace steps are given below. [Worksapce](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
 ```bash
@@ -149,8 +150,8 @@ source devel/setup.bash
 --------
 
 There are two types of publisher and subscriber in our package. They are,<br>
-	- [Python](##python)
-	- [C++](##c++)
+<center>- [Python](##python)<br>
+	- [C++](##c++)</center>
 
 ### Pyhton
 
